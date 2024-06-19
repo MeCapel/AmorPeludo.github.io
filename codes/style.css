@@ -371,7 +371,7 @@ margin-right: 2rem;
     text-align: center;
     width: 90%;
     padding: 1rem 2rem 0 0;
-    color: black;
+    color: var(--azul_escuro);
     /*border: 2px solid red;*/
 }
 
@@ -420,7 +420,7 @@ margin-right: 2rem;
     color: white;
 }
 
-#e-mail, #senha{
+.formEntrar input {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -428,11 +428,7 @@ margin-right: 2rem;
     width: 80%;
     border-radius: 10px;
     border: none;
-}
-
-#e-mail::placeholder, #senha::placeholder {
-    position: relative;
-    left: 10px;
+    padding-left: 15px;
 }
 
 #e-mail {
@@ -453,6 +449,7 @@ margin-right: 2rem;
     display: flex; 
     justify-content: center;
     margin-top: 2rem;
+    color: var(--azul_escuro);
 } 
 
 .login button, .crie button {
@@ -514,14 +511,33 @@ aside {
     width: 20%;
     background-color: var(--cinza201);
     border-radius: 0 15px 0 0;
-    padding: 1rem 1rem;
     font-size: 25px;
+    padding: 1rem 0 0 0;
 }
 
 aside p {
-    padding: 1rem 0;
-    font-size: 25px;
+    padding: 1rem 1rem;
+    font-size: 22px;
     color: var(--azul_claro);
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 310vh;
+}
+
+.btnVolta {
+    border: none;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    cursor: pointer;
+}
+
+.btnVolta img {
+    height: 3rem;
 }
 
 .conteudoIns {
@@ -714,6 +730,11 @@ aside p {
     margin: 0.5rem;
     padding: 0.5rem;
     width: calc(50% - 1.5rem);
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid var(--rosa);
 }
 
 .full {
