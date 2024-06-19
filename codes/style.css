@@ -498,7 +498,6 @@ margin-right: 2rem;
 
 .mainInstitucional {
     display: flex;
-    gap: 1rem;
 }
 
 .mainInstitucional h1 {
@@ -545,8 +544,12 @@ aside p {
     width: calc(80% - 2rem);
 }
 
+.conteudoIns h1 {
+    padding: 0 1.5rem;
+}
+
 .conteudoIns p {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2rem;
     font-size: 22px;
 }
 
@@ -555,8 +558,8 @@ aside p {
 }
 
 .banner{
-    height: 50vh;
-    margin: 0 0 1.5rem 0;
+    height: 55vh;
+    margin: 0 1rem 1.5rem 1rem;
 }
 
 .banner img {
@@ -566,12 +569,12 @@ aside p {
 }
 
 .ulInstitucional {
-    margin: 0 0 0 2rem;
+    margin: 0 0 0 4rem;
 }
 
 .ulInstitucional li {
     font-size: 22px;
-    padding: 0.5rem 0;
+    padding: 0.5rem 0.5rem;
 }
 
 /*  INTEGRANTES  */
