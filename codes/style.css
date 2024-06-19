@@ -88,13 +88,12 @@ header {
     cursor: pointer;
 }
 
-/*Estipula a altura de 3rem para a logo e icons*/
 .usuario {
-    height: 3rem;
+    height: 2.3rem;
 }
 
 .favoritos {
-    height: 2.5rem;
+    height: 2rem;
 }
 
 .favoritos:hover, .usuario:hover {
@@ -104,6 +103,7 @@ header {
 /* Espaçamento entre os icons */
 .img_links {
     display: flex;
+    align-items: center;
     gap: 0.5rem;
 }
 
@@ -494,6 +494,7 @@ margin-right: 2rem;
 
 .link {
     text-decoration: none;
+    color: black;
 }
 
 .mainInstitucional {
@@ -509,7 +510,7 @@ aside {
     /* border: 2px solid red; */
     width: 20%;
     background-color: var(--cinza201);
-    border-radius: 0 15px 0 0;
+    /* border-radius: 0 15px 0 0; */
     font-size: 25px;
     padding: 1rem 0 0 0;
 }
@@ -524,7 +525,7 @@ aside p {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 310vh;
+    top: 350vh;
 }
 
 .btnVolta {
@@ -541,7 +542,7 @@ aside p {
 
 .conteudoIns {
     /* border: 2px solid blue; */
-    width: calc(80% - 2rem);
+    width: 80%;
 }
 
 .conteudoIns h1 {
@@ -558,14 +559,14 @@ aside p {
 }
 
 .banner{
-    height: 55vh;
-    margin: 0 1rem 1.5rem 1rem;
+    height: 62vh;
+    margin: 0 0 1.5rem 0;
 }
 
 .banner img {
     height: 100%;
-    width: 76vw;
-    border-radius: 10px; 
+    width: 100%;
+    /* border-radius: 10px;  */
 }
 
 .ulInstitucional {
