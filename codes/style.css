@@ -75,7 +75,7 @@ header {
 }
 
 .btns button:hover {
-    background-color: rgb(231, 107, 136);
+    transform: scale(1.1);
 }
 
 .links, .btns {
@@ -95,6 +95,10 @@ header {
 
 .favoritos {
     height: 2.5rem;
+}
+
+.favoritos:hover, .usuario:hover {
+    transform: scale(1.1);
 }
 
 /* Espaçamento entre os icons */
@@ -330,7 +334,7 @@ margin: 0.5rem 2rem;
 
 .rodape a{
 margin-right: 0.8rem;
-color: black; /*reconhece os ícones como link e estiliza eles*/
+color: white; /*reconhece os ícones como link e estiliza eles*/
 text-decoration: none;    
 }
 
@@ -666,7 +670,7 @@ aside p {
 .cadastro button {
     height: 3rem;
     width: 80%;
-    border-radius: 20px;
+    border-radius: 30px;
     font-size: 25px;
     font-weight: 900;
     color: white;
@@ -686,15 +690,16 @@ aside p {
 
 .formulario {
     background-color: var(--cinza215);
-    /* height: ; */
+    height: 105vh;
     width: 90vw;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: auto;
     margin-bottom: 2rem;
 }
 
 .formTitulos {
-    padding: 1rem 0 0.5rem 1rem;
+    padding: 2rem 0 0.5rem 1rem;
+    color: var(--azul_claro);
 }
 
 .cadastrar, .dadosResponsavel, .endereco {
@@ -726,7 +731,7 @@ aside p {
     height: 2.5rem;
     width: 90%;
     border: none;
-    border-radius: 20px;
+    border-radius: 30px;
     background: var(--rosa);
     font-size: 25px;
     font-weight: 900;
